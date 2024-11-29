@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>MaStAr's Blog 我的个人博客</title>
+        <script src="marked.min.js"></script>
     </head>
     <body>
         <!-- 导航栏 -->
@@ -24,12 +25,15 @@
         </div>
         <!-- 主要内容 -->
         <div class="main">
-            <h1>这里还什么都没有</h1>
+            <div id="test"></div>
         </div>
         <!-- 页脚 -->
         <div class="footer">
             <div>上次更新：2024/11/29</div>
             <div>&copy; 2024 我的个人博客</div>
         </div>
+        <script>
+            document.getElementById("test").innerHTML = marked.parse("# ***Markdown Test***")
+        </script>
     </body>
 </html>
