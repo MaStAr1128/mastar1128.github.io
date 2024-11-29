@@ -6,7 +6,7 @@ body{
     height: 100vh;
 }
 div{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 a{
     display: flex;
