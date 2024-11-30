@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     background-color: #ff99ee;
     flex-direction: column;
@@ -7,25 +7,32 @@ body{
     padding: 0px;
     margin-top: 0;
 }
-div{
+
+div {
     border-radius: 10px;
     margin: 5px;
     background-color: #ffffff;
+    gap: 5px;
 }
-.menu a{
+
+a {
     display: flex;
-    margin: 5px;
+    text-decoration: none;
+    color: #2211ff;
 }
-footer{
+
+footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.footer{
+
+.footer {
     padding: 0;
     flex: 0.5;
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -34,14 +41,22 @@ footer{
     border-top: 1px solid;
     border-radius: 0 0 10px 10px;
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: column;
     background-color: #55eeff;
     max-width: 100%;
     flex: 1;
 }
-.main{
+
+.main {
     display: flex;
     flex: 8;
+    background-color: #ff99ee;
+    flex-direction: column;
+}
+
+.main .link {
+    margin: 0;
 }
