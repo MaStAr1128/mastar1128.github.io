@@ -26,13 +26,16 @@
     </div>
     <!-- 主要内容 -->
     <div class="main">
-        <h1>锐意制作中！</h1>
+        <div id="test"></div>
     </div>
     <!-- 页脚 -->
     <div class="footer">
         <div>上次更新：2024/11/29</div>
         <div>&copy; 2024 我的个人博客</div>
     </div>
+    <script>
+        document.getElementById("test").innerHTML = marked.parse("# ***Markdown Test***")
+    </script>
 </body>
 
 </html>
