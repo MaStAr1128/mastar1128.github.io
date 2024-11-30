@@ -58,6 +58,10 @@ footer {
     flex-direction: row;
 }
 
+.title div {
+    background-color: #55eeff;
+}
+
 .main {
     display: flex;
     flex: 8;
