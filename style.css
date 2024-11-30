@@ -57,6 +57,6 @@ footer {
     flex-direction: column;
 }
 
-.main .link {
-    margin: 0;
+.main div {
+    margin-inline: 0;
 }
